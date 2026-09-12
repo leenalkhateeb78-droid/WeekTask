@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Exercises</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CSS Flex, Grid Solutions</h1>
+
+<div class="exercise">
+  <h2>1. Row of 4 Boxes</h2>
+  <div class="ex1-container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>2. Center Div</h2>
+  <div class="ex2-container">
+    <div class="center-me">Center me.</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>3. Equal Height Cards</h2>
+  <div class="ex3-container">
+    <div class="card">I am small</div>
+    <div class="card">I have more content than the very small item.</div>
+    <div class="card">I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>4. Wrapping Tags</h2>
+  <div class="ex4-container">
+    <span class="tag">Turnip</span>
+    <span class="tag">greens</span>
+    <span class="tag">yarrow</span>
+    <span class="tag">ricebean</span>
+    <span class="tag">rutabaga</span>
+    <span class="tag">endive</span>
+    <span class="tag">cauliflower</span>
+    <span class="tag">sea lettuce</span>
+    <span class="tag">kohlrabi</span>
+    <span class="tag">amaranth</span>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>5. Align-self</h2>
+  <div class="ex5-container">
+    <div class="b1">1</div>
+    <div class="b2">2</div>
+    <div class="b3">3</div>
+    <div class="b4">4</div>
+    <div class="b5">5</div>
+    <div class="b6">6</div>
+    <div class="b7">7</div>
+    <div class="b8">8</div>
+    <div class="b9">9</div>
+    <div class="b10">10</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>6. Web Application Page</h2>
+  <div class="app-nav">
+    <div class="left"><span>About</span><span>Store</span></div>
+    <div class="right"><span>Profile</span><span>Settings</span></div>
+  </div>
+  <div class="app-main">
+    <div>🖥️ WEB APPLICATION</div>
+    <input type="text">
+    <div class="app-buttons">
+      <button>Do the thing!</button>
+      <button>Do the other thing!</button>
+    </div>
+  </div>
+  <div class="app-footer">
+    <div class="left"><span>Advertising</span><span>Business</span></div>
+    <div class="right"><span>Privacy</span><span>Terms</span></div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>8. Page Layout (Grid)</h2>
+  <div class="ex8-grid">
+    <div class="header">Header</div>
+    <div class="sidebar">Sidebar</div>
+    <div class="nav">Nav</div>
+    <div class="article">Article<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div class="footer">Footer</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>9. Image Gallery (Grid)</h2>
+  <div class="ex9-grid">
+    <div class="photo" style="background-image:url('https://picsum.photos/id/1015/400/300');">
+      <span class="label">Available</span>
+    </div>
+    <div class="photo" style="background-image:url('https://picsum.photos/id/1025/400/300');">
+      <span class="label">Sold</span>
+    </div>
+    <div class="photo" style="background-image:url('https://picsum.photos/id/1035/400/300');">
+      <span class="label">Sold</span>
+    </div>
+    <div class="photo" style="background-image:url('https://picsum.photos/id/1045/400/300');">
+      <span class="label">Available</span>
+    </div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>10. Complex Grid</h2>
+  <div class="ex10-grid">
+    <div class="ex10-item">Item 1</div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div><div>Sub 3</div><div>Sub 4</div></div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div><div>Sub 3</div><div>Sub 4</div></div>
+    <div class="ex10-item">Item 4</div>
+    <div class="ex10-item">Item 5</div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div></div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div></div>
+    <div class="ex10-item">Item 8</div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div><div>Sub 3</div><div>Sub 4</div></div>
+    <div class="ex10-item">Item 10</div>
+    <div class="ex10-item">Item 11</div>
+    <div class="ex10-subgrid"><div>Sub 1</div><div>Sub 2</div><div>Sub 3</div><div>Sub 4</div></div>
+  </div>
+</div>
+
+<h1>CSS Positions, Z-index, Border Solutions</h1>
+
+<div class="exercise pos1-scope">
+  <h2>1. Three Divs</h2>
+  <div class="pos1-wrapper">
+    <div class="pos1-div1">Div1 position=Relative</div>
+    <div class="pos1-div3">Div3 position=absolute</div>
+  </div>
+  <div class="pos1-div2">Div2 position=fixed &amp; z-index</div>
+</div>
+
+<div class="exercise">
+  <h2>2. Z-index with Stacked Boxes</h2>
+  <div class="pos2-wrapper">
+    <div class="pos2-box1">1</div>
+    <div class="pos2-box2">2</div>
+    <div class="pos2-box3">3</div>
+    <div class="pos2-box4">4</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>3. Position Absolute in Four Corners</h2>
+  <div class="pos3-wrapper">
+    <div class="pos3-tl">Absolute</div>
+    <div class="pos3-tr">Absolute</div>
+    <div class="pos3-bl">Absolute</div>
+    <div class="pos3-br">Absolute</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>4. Position Relative &amp; Static</h2>
+  <div class="pos4-grid">
+    <div class="pos4-row">
+      <div class="n2">2</div>
+      <div class="n3">3</div>
+      <div class="n4">4</div>
+    </div>
+    <div class="pos4-row">
+      <div class="n5">5</div>
+      <div class="n1">1</div>
+      <div class="n7">7</div>
+      <div class="n8">8</div>
+    </div>
+    <div class="pos4-row">
+      <div class="n9">9</div>
+      <div class="n10">10</div>
+      <div class="n11">11</div>
+      <div class="n12">12</div>
+    </div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>5. Multi Box Shadow</h2>
+
+  <div class="pos5-box">Multi box shadow</div>
+</div>
+
+<div class="exercise">
+  <h2>6. Six Different Border Styles</h2>
+  <div class="pos6-box border1">This is the example of CSS Border Style property.</div>
+  <div class="pos6-box border2">This is the example of CSS Border Style Shorthand property. The border style defines with order: top, right, bottom and then left side of HTML element.</div>
+  <div class="pos6-box border3">This is the example of CSS Border Width, Style and Color properties.</div>
+  <div class="pos6-box border4">This is the example of CSS Border Style Shorthand property. Please note that border style is the only mandatory thing to set border. Border width &amp; color is optional and those values can be taken from browsers default.</div>
+  <div class="pos6-box border5">This is the example of CSS Border Shorthand property.</div>
+  <div class="pos6-box border6">You can override one border property with another or individual border property. Latest defined border property will override existing one.</div>
+</div>
+
+<div class="exercise">
+  <h2>7. Four Images with Absolute + Z-index</h2>
+  <div class="pos7-wrapper">
+    <div class="img4"></div>
+    <div class="img3"></div>
+    <div class="img2"></div>
+    <div class="img1"></div>
+  </div>
+</div>
+
+</body>
+</html>
