@@ -123,11 +123,41 @@ h2 { background: #ff7a00; color: white; padding: 10px 15px; margin-top: 60px; }
   gap: 4px;
   height: 500px;
 }
-.ex8-grid .header  { grid-area: header;  background:#ffd83d; color:white; padding:15px; text-align:center; }
-.ex8-grid .sidebar { grid-area: sidebar; background:#ff7a52; color:white; padding:15px; text-align:center; }
-.ex8-grid .nav     { grid-area: nav;     background:#33d1ff; color:white; padding:15px; text-align:center; }
-.ex8-grid .article { grid-area: article; background:#c7d0e0; color:white; padding:15px; overflow:auto; }
-.ex8-grid .footer  { grid-area: footer;  background:#3b3f4c; color:white; padding:15px; text-align:center; }
+.ex8-grid .header {
+  grid-area: header;
+  background:#ffd83d;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+.ex8-grid .sidebar {
+  grid-area: sidebar;
+  background:#ff7a52;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+.ex8-grid .nav {
+  grid-area: nav;
+  background:#33d1ff;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+.ex8-grid .article {
+  grid-area: article;
+  background:#c7d0e0;
+  color:white;
+  padding:15px;
+  overflow:auto;
+}
+.ex8-grid .footer {
+  grid-area: footer;
+  background:#3b3f4c;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
 
 .ex9-grid {
   display: grid;
